@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+
+.back-ground{
+  /* background-image: url("background.jpg"); */
+  height:500px ;
+  width:400px ;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  border-radius: 5%;
+  line-height: 0.1; 
+  z-index: 1;
+  position: absolute;
+ }
+
+ .recording-card{
+     /* z-index: 1; */
+ }
+
+.button{
+  height: 30vw;
+  width: auto;
+  margin: -70% 35% 0%; 
+  z-index: 40;
+ position: absolute;
+}
+
+ .back-ground:hover :not(.button){
+    filter: brightness(50%);
+    /* z-index: 1; */
+}
+
+.recording-card h4 ,h5, h6{
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.recording-card nav h4{
+ top: -20%;
+
+}
+.recording-card h4{
+  font-size: 8vw;
+  padding-top: 12%;
+  position: absolute;
+}
+.recording-card h5{
+  font-size: 6vw;
+}
+
+.recording-card h6{
+  font-size: 4vw;
+}
+.recording-card h5 , h6{
+  font-weight: 10;
+}
